@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1773148960",
+        "python_version": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\liamp\\anaconda3\\envs\\ML_agents\\Scripts\\mlagents-learn config/CubeAgent.yaml --run-id=CubeAgentRays --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1773149004"
+    },
+    "total": 44.295121900000005,
+    "count": 1,
+    "self": 0.006632400000000871,
+    "children": {
+        "run_training.setup": {
+            "total": 0.04851840000000007,
+            "count": 1,
+            "self": 0.04851840000000007
+        },
+        "TrainerController.start_learning": {
+            "total": 44.239971100000005,
+            "count": 1,
+            "self": 6.439999999230395e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 44.1087235,
+                    "count": 1,
+                    "self": 44.1087235
+                },
+                "trainer_threads": {
+                    "total": 5.000000058430487e-07,
+                    "count": 1,
+                    "self": 5.000000058430487e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 0.13118270000000365,
+                    "count": 1,
+                    "self": 0.05786150000000134,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.0733212000000023,
+                            "count": 1,
+                            "self": 0.0733212000000023
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

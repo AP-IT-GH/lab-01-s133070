@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1773153516",
+        "python_version": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\liamp\\anaconda3\\envs\\ML_agents\\Scripts\\mlagents-learn config/CubeAgent.yaml --run-id=CubeAgentGreenZone --force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1773153532"
+    },
+    "total": 15.602324499999998,
+    "count": 1,
+    "self": 0.013778999999999542,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08608349999999998,
+            "count": 1,
+            "self": 0.08608349999999998
+        },
+        "TrainerController.start_learning": {
+            "total": 15.502462,
+            "count": 1,
+            "self": 0.0004734000000006233,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 15.5019708,
+                    "count": 1,
+                    "self": 15.5019708
+                },
+                "trainer_threads": {
+                    "total": 1.6999999985500835e-06,
+                    "count": 1,
+                    "self": 1.6999999985500835e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.6099999999852344e-05,
+                    "count": 1,
+                    "self": 1.6099999999852344e-05
+                }
+            }
+        }
+    }
+}
