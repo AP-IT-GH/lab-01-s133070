@@ -21,7 +21,7 @@ public class ZoekAgent : Agent
     public override void CollectObservations(VectorSensor sensor)
     {
         // Target en Agent posities
-        sensor.AddObservation(Target.localPosition);
+        sensor.AddObservation(Target.localPosition - this.transform.localPosition);
         sensor.AddObservation(this.transform.localPosition);
 
     }

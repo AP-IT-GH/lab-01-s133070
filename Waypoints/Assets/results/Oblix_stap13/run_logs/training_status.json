@@ -1,0 +1,29 @@
+{
+    "CubeAgent": {
+        "checkpoints": [
+            {
+                "steps": 300016,
+                "file_path": "results\\Oblix_stap13\\CubeAgent\\CubeAgent-300016.onnx",
+                "reward": null,
+                "creation_time": 1774907085.266948,
+                "auxillary_file_paths": [
+                    "results\\Oblix_stap13\\CubeAgent\\CubeAgent-300016.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 300016,
+            "file_path": "results\\Oblix_stap13\\CubeAgent.onnx",
+            "reward": null,
+            "creation_time": 1774907085.266948,
+            "auxillary_file_paths": [
+                "results\\Oblix_stap13\\CubeAgent\\CubeAgent-300016.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cpu"
+    }
+}
