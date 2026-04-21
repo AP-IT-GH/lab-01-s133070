@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1776719296",
+        "python_version": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\liamp\\anaconda3\\envs\\ML_agents\\Scripts\\mlagents-learn config/CubeAgent.yaml --resume --run-id=Jumper1",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1776719304"
+    },
+    "total": 8.2354752,
+    "count": 1,
+    "self": 0.012657799999999497,
+    "children": {
+        "run_training.setup": {
+            "total": 0.059610799999999964,
+            "count": 1,
+            "self": 0.059610799999999964
+        },
+        "TrainerController.start_learning": {
+            "total": 8.1632066,
+            "count": 1,
+            "self": 0.00015879999999945937,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.804890899999999,
+                    "count": 1,
+                    "self": 7.804890899999999
+                },
+                "trainer_threads": {
+                    "total": 4.099999999951365e-06,
+                    "count": 1,
+                    "self": 4.099999999951365e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.35815280000000094,
+                    "count": 1,
+                    "self": 0.07364630000000183,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.2845064999999991,
+                            "count": 1,
+                            "self": 0.2845064999999991
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

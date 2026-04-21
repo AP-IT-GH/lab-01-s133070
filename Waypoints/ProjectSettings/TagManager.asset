@@ -9,6 +9,11 @@ TagManager:
   - marker
   - Target
   - GreenZone
+  - Coin
+  - Plane
+  - Obstakel
+  - Obstakel1
+  - Obstakel2
   layers:
   - Default
   - TransparentFX
